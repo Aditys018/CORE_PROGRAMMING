@@ -2,8 +2,7 @@
 
 int main()
 {
-    printf("Ganpati bappa morya \n");
+    printf("Happy Independence day");
 
     return 0;
 }
-
