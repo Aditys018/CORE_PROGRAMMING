@@ -24,5 +24,15 @@ int main ()
      Demo obj;
     cout<<sizeof(obj)<<"\n";
 
+    obj.A = 11;
+    obj.B = 21;
+
+    obj.Fun();
+    obj.Gun();
+
+    cout<<obj.A<<"\n";
+    cout<<obj.B<<"\n";
+    
+
     return 0;
 }
