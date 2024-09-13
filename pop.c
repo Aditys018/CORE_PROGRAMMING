@@ -15,20 +15,20 @@ int Substraction(int No1, int No2)
 
 int main()
 {
-    int iValue1 = 0, iValue2 = 0, iRet = 0;
+    int Value1 = 0, Value2 = 0, Ret = 0;
 
     printf("Enter first number: \n");
-    scanf("%d" , &iValue1);
+    scanf("%d" , &Value1);
 
     printf("Enter first number: \n");
-    scanf("%d" , &iValue2);
+    scanf("%d" , &Value2);
 
 
-    iRet = Addition(iValue1,iValue2);
-    printf("Addition is: %d\n" , iRet);
+    Ret = Addition(Value1,Value2);
+    printf("Addition is: %d\n" , Ret);
 
-    iRet = Substraction(iValue1,iValue2);
-    printf("Substraction is: %d\n" , iRet);
+    Ret = Substraction(Value1,Value2);
+    printf("Substraction is: %d\n" , Ret);
 
 
 
