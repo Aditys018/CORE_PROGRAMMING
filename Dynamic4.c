@@ -4,14 +4,11 @@
 int main()
 {
     int *ptr = NULL;
-
-    //step1 : allocate the memory
     ptr = (int *)malloc(5 * sizeof(int));
 
-    //step2 : use the memory
-
-    //step3 : deallocate the memory
-    free(ptr);
+    ptr = (int *)realloc(ptr, 7 * sizeof(int)); //case1
+    
+    ptr = (int *)realloc(ptr, 3 * sizeof(int)); //case2
 
     return 0;
 

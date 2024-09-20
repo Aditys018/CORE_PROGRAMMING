@@ -6,7 +6,7 @@ int main()
     int *ptr = NULL;
 
     //step1 : allocate the memory
-    ptr = (int *)malloc(5 * sizeof(int));
+    ptr = (int *)calloc(5, sizeof(int));
 
     //step2 : use the memory
 
