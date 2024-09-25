@@ -13,8 +13,8 @@ class Demo
     }
     void Display(int X) // display naavachi method, 
     {
-        cout<<"Value of No1 : "<<No1<<"\n";
-        cout<<"Value of No2 : "<<No2<<"\n";
+        cout<<"Value of No1 : "<<this->No1<<"\n";
+        cout<<"Value of No2 : "<<this->No2<<"\n";
         cout<<"value of X : "<<X<<"\n";
     }
 
@@ -25,4 +25,5 @@ int main()
     obj.Display(51);
 
     return 0;
+
 }
