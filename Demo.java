@@ -1,33 +1,29 @@
-class Demo
+class Marvellous
 {
-    public static void main(String D[])
-    {
-        class Marvellous{
-            public int A;
-            protected float B;
-            private int C;
-        }
+    public int A;
+    protected float B;
+    private int C;
 
-        public Marvellous()
-        {
-            A = 10;
-            B = 10.10f;
-            C = 20;
-        }
-        void Display()
-        {
-            int i = 11;
-            System.out.println("Value of i is  : "+i);
-        }
+    public Marvellous()
+    {
+        A = 10;
+        B = 10.10f;
+        C = 20;
     }
 
-    class Demo
+    void Display()
     {
-        public static void main(String D[])
-        {
-            Marvellous mobj = new Marvellous();
+        int i = 11;
+        System.out.println("Value of i is : "+i);
+    }
+}
 
-            mobj.Display();
-        }
+class Demo
+{
+    public static void main(String A[])
+    {
+        Marvellous mobj = new Marvellous();
+
+        mobj.Display();
     }
 }
