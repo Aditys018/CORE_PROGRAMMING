@@ -2,11 +2,8 @@ class ExceptionDemo4
 {
     public static void main(String A[])
     {
-       String str;
+        String str;
 
-       System.out.println(str);
-
-        
+        System.out.println(str);
     }
-
 }
